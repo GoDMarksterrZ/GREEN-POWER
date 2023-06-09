@@ -1,0 +1,168 @@
+/* Estilos generales */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #369968;
+  padding: 10px 0;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+}
+
+header h1 {
+  margin-left: 10px;
+  color: #fff;
+}
+
+/* Contenido principal */
+section {
+  width: 79%;
+  background: #72d196;
+  float: right;
+  overflow: auto;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+figure {
+  display: table;
+  margin: 0 auto;
+}
+
+figure h2 {
+  text-align: center;
+  color: #0f3820;
+}
+
+figcaption {
+  text-align: center;
+  color: #555;
+}
+
+/* Contenido relacionado */
+aside {
+  float: left;
+  width: 19%;
+  background: #c8eac1;
+  padding: 10px;
+  color: #555;
+}
+
+aside p {
+  margin-bottom: 10px;
+}
+
+aside a {
+  color: #0f3820;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+  position: relative;
+  margin-top: -50px;
+  height: 40px;
+  padding: 5px 0;
+  clear: both;
+  background: #9fec9c;
+  text-align: center;
+  color: #0f3820;
+}
+
+/* Estilos del menú desplegable */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+.center-text {
+  text-align: center;
+}
+
+.center-video {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list li a {
+  display: block;
+  padding: 5px 0;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.toggle-menu:checked ~ .menu-list {
+  display: block;
+}
+
+.toggle-menu:checked ~ .menu-title {
+  color: #369968;
+}
+.menu-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.menu-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 5px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-list li a:hover {
+  text-decoration: underline;
+}
+.energy-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.energy-type img {
+  max-width: 25%;
+  margin-top: 10px;
+}
+body {
+  font-size: 18px;
+}
+
+section, article, figure {
+  font-size: 18px;
+}
+
+
